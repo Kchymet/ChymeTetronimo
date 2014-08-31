@@ -5,7 +5,8 @@
 #define MAX_DIMENSION 4
 
 namespace Tetronimo{
-	class Block{
+	struct Block{
+		Tile temp[MAX_DIMENSION][MAX_DIMENSION];
 		Tile tiles[MAX_DIMENSION][MAX_DIMENSION];
 		int dimension; //used dimension. if it's only a 2x2 block, then only tiles[0][0] thru tiles[1][1] are used
 		Block();
