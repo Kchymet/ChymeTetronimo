@@ -1,6 +1,19 @@
 #include "board.h"
 
 namespace Tetronimo{
+	Board::Board(){}
+	void Board::placeFallingBlock(){
+	}
+	bool Board::checkCollision(){
+		return false;
+	}
+	bool Board::checkContact(){
+		return false;
+	}
+	bool Board::checkValid(){
+		return true;
+	}
+
 	void Board::moveFallingBlock(move_direction_t md){
 		if (md == LEFT){
 			(this->x)--;

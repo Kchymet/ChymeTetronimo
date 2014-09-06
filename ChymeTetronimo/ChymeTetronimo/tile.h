@@ -3,7 +3,8 @@
 
 namespace Tetronimo{
 	struct Tile{
-		//color and occupancy info for tiles on the map
+		bool occupied;
+		Tile();
 	};
 }
 
