@@ -33,5 +33,6 @@ int main(char argc, char **argv){
 	printf("Renderer: %s\n", renderer);
 	printf("OpenGL version supported %s\n", version);
 
+	system("PAUSE");
 	return EXIT_SUCCESS;
 }
