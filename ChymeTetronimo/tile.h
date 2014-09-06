@@ -2,7 +2,8 @@
 #define CHYME_TETRONIMO_TILE_H
 
 namespace Tetronimo{
-	struct Tile{
+	class Tile{
+	public:
 		bool occupied;
 		Tile();
 	};

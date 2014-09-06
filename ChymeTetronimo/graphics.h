@@ -6,7 +6,8 @@
 #include "board.h"
 
 namespace Tetronimo{
-	struct Graphics{
+	class Graphics{
+	public:
 		GLFWwindow *window;
 		GLubyte *renderer;
 		GLubyte *version;

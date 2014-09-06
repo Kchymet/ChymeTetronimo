@@ -8,7 +8,8 @@
 #define BOARD_HEIGHT 20
 
 namespace Tetronimo{
-	struct Board{
+	class Board{
+	public:
 		Tile tiles[BOARD_HEIGHT][BOARD_HEIGHT];
 		Block fallingblock;
 		int x, y;

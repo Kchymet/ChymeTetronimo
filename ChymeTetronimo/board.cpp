@@ -1,6 +1,10 @@
 #include "board.h"
 
 namespace Tetronimo{
+	//HELPERS
+	
+
+	//DEFINITIONS
 	Board::Board(){}
 	void Board::placeFallingBlock(){
 	}
@@ -29,7 +33,7 @@ namespace Tetronimo{
 		}
 	}
 	void Board::rotateFallingBlock(rotate_direction_t rd){
-		//TODO
+		fallingblock.rotate(rd);
 	}
 	void Board::softDropFallingBlock(){
 		if (this->checkContact()){
